@@ -28,7 +28,7 @@ local function setup_colors()
     section_fg = StatusLine.fg,
     section_bg = StatusLine.bg,
     git_branch_fg = Conditional.fg,
-    treesitter_fg = String.fg,
+    treesitter_fg = Conditional.fg,
     scrollbar = TypeDef.fg,
     git_added = GitSignsAdd.fg,
     git_changed = GitSignsChange.fg,
